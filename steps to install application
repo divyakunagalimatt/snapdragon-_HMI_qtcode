@@ -1,0 +1,47 @@
+
+Step 1:
+
+google search 
+
+raspberry pi linux download 64 bit desktop version
+
+check for inserted USB drive
+
+using lsblk
+
+then use dd command
+
+sudo dd if=2023-02-21-raspios-bullseye-arm64.img.xz of=/dev/sda bs=4M status=progress
+
+Step 2:
+
+https://raspberrytips.com/upgrade-raspbian-lite-to-desktop/
+
+
+Type in terminal
+ 
+sudo apt install xserver-xorg
+
+sudo apt install raspberrypi-ui-mods
+
+sudo apt install lightdm
+ 
+ 
+ 
+Step 3:
+
+https://linuxhint.com/install-qt-creator-raspberry-pi/
+
+sudo apt-get update && sudo apt-get upgrade
+
+
+sudo apt-get -y install build-essential openssl libssl-dev libssl1.0 libgl1-mesa-dev libqt5x11extras5
+
+sudo apt-get install qtmultimedia5-dev
+
+sudo apt-get install qtcreator
+
+sudo apt-get install qt5*
+
+sudo apt-get install libudev
+
