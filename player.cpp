@@ -166,7 +166,7 @@ Player::Player(QWidget *parent)
 
 
 
-    int offset_player_x = (779.0 / 1082) * width;
+    int offset_player_x = (785.0 / 1082) * width;
     int offset_player_y = (384.0 / 420) * height;
 
     resize(offset_player_x, offset_player_y);
@@ -233,7 +233,7 @@ void Player::concat_play(const QString &fileName)
     }
     m_player->setVideoOutput(m_videoWidget);
     m_player->play();
-    usleep(200000);
+    usleep(500000);
     m_player->pause();
 
 }
