@@ -61,4 +61,27 @@ sudo apt-get install gedit
 
 sudo apt-get install firefox-esr
 
+Step 4:
+To install application
+
+clone the project
+
+git clone https://github.com/divyakunagalimatt/snapdragon-_HMI_qtcode.git
+
+then
+
+make clean all
+
+then edit Makefile
+
+add -ludev after -lpthread
+
+then
+
+make clean all
+
+then run the application
+
+./test
+
 
