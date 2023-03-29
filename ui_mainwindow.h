@@ -230,7 +230,7 @@ public:
         findButton = new QPushButton(page_2);
         findButton->setObjectName(QString::fromUtf8("findButton"));
         findButton->setGeometry(QRect(offset_array2_pb_x, offset_array3_pb_y, size_x_pb, size_y_pb));
-        QPixmap pixmap6("file-modified.png");
+        QPixmap pixmap6("folder11.png");
         QIcon ButtonIcon6(pixmap6);
         findButton->setIcon(ButtonIcon6);
         findButton->setIconSize(QSize(size_x_pb_icon, size_x_pb_icon));
