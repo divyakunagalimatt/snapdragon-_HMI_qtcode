@@ -84,4 +84,31 @@ then run the application
 
 ./test
 
+Step 5:
+
+To put application in auto start mode
+
+Create a file called display.desktop in following path
+
+/etc/xdg/autostart/display.desktop
+
+Then add following lines :
+
+[Desktop Entry]
+Name=PiCounter
+Exec=sh /home/pi/Documents/qt_programs/Infotainment/Widget6/Snapdragon_HMI2/test11/runscript.sh
+
+The path /home/pi/Documents/qt_programs/Infotainment/Widget6/Snapdragon_HMI2/test11/ is subject to change based on the project and executable's path location
+
+The contents of runscript.sh are :
+cd /home/pi/Documents/qt_programs/Infotainment/Widget6/Snapdragon_HMI2/test11
+./test
+
+The path /home/pi/Documents/qt_programs/Infotainment/Widget6/Snapdragon_HMI2/test11/ is subject to change based on the project and executable's path location
+
+Save the file and change the permission as follows:
+
+chmod 777 runscript.sh
+
+
 
