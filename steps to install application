@@ -88,7 +88,7 @@ Step 5:
 
 To put application in auto start mode
 
-Create a file called display.desktop in following path
+Create a file called display.desktop in following path using sudo command
 
 /etc/xdg/autostart/display.desktop
 
