@@ -63,6 +63,7 @@ sudo apt-get install firefox-esr
 
 Step 4:
 To install application
+sudo apt-get install git
 
 clone the project
 
